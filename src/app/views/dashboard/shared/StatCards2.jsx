@@ -55,7 +55,7 @@ const StatCards2 = () => {
             <FabIcon size="medium" sx={{ background: 'rgba(9, 182, 109, 0.15)' }}>
               <Icon sx={{ color: '#08ad6c' }}>trending_up</Icon>
             </FabIcon>
-            <H3 textcolor={'#08ad6c'}>Active Users</H3>
+            <H3 textcolor={'#08ad6c'}>Tarefas realizadas</H3>
           </ContentBox>
 
           <ContentBox sx={{ pt: 2 }}>
