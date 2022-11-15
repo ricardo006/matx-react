@@ -23,9 +23,9 @@ const AppEchart = () => {
   const theme = useTheme();
   return (
     <Container>
-      <Box className="breadcrumb">
+      {/* <Box className="breadcrumb">
         <Breadcrumb routeSegments={[{ name: 'Charts', path: '/charts' }, { name: 'Echarts' }]} />
-      </Box>
+      </Box> */}
 
       <SimpleCard title="Doughnut Chart">
         <DoughnutChart

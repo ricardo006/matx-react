@@ -1,8 +1,4 @@
 import { Box, styled } from '@mui/material';
-import { Breadcrumb, SimpleCard } from 'app/components';
-import AsyncAutocomplete from './AsyncAutocomplete';
-import AutocompleteCombo from './AutocompleteCombo';
-import BadgeAutocomplete from './BadgeAutocomplete';
 
 const Container = styled('div')(({ theme }) => ({
   margin: '30px',
@@ -13,12 +9,12 @@ const Container = styled('div')(({ theme }) => ({
   },
 }));
 
-const AppAutoComplete = () => {
+const Download = () => {
   return (
     <Container>
-      Teste
+      Download
     </Container>
   );
 };
 
-export default AppAutoComplete;
+export default Download;

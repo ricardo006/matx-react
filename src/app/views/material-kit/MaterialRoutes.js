@@ -14,6 +14,12 @@ const AppSlider = Loadable(lazy(() => import('./slider/AppSlider')));
 const AppDialog = Loadable(lazy(() => import('./dialog/AppDialog')));
 const AppSnackbar = Loadable(lazy(() => import('./snackbar/AppSnackbar')));
 const AppAutoComplete = Loadable(lazy(() => import('./auto-complete/AppAutoComplete')));
+const Aula = Loadable(lazy(() => import('./aula/Aula')));
+const Audio = Loadable(lazy(() => import('./audio/Audio')));
+const Video = Loadable(lazy(() => import('./video/Video')));
+const Timeline = Loadable(lazy(() => import('./timeline/Timeline')));
+const Download = Loadable(lazy(() => import('./download/Download')));
+const MyWords = Loadable(lazy(() => import('./my-words/MyWords')));
 const AppExpansionPanel = Loadable(lazy(() => import('./expansion-panel/AppExpansionPanel')));
 
 const materialRoutes = [
@@ -58,8 +64,28 @@ const materialRoutes = [
     element: <AppSlider />,
   },
   {
-    path: '/material/autocomplete',
-    element: <AppAutoComplete />,
+    path: '/video',
+    element: <Video />,
+  },
+  {
+    path: '/audio',
+    element: <Audio />,
+  },
+  {
+    path: '/aula',
+    element: <Aula />,
+  },
+  {
+    path: '/download',
+    element: <Download />,
+  },
+  {
+    path: '/timeline',
+    element: <Timeline />,
+  },
+  {
+    path: '/my-words',
+    element: <MyWords />,
   },
   {
     path: '/material/expansion-panel',
