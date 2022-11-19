@@ -18,7 +18,7 @@ export const navigations = [
   {
     name: 'Área do Aluno',
     icon: 'favorite',
-    badge: { value: '30+', color: 'secondary' },
+    badge: { value: '', color: 'secondary' },
     children: [
       { name: 'Upload de Áudios', path: '/audio', iconText: 'A' },
       { name: 'Horário de Aulas', path: '/aula', iconText: 'B' },

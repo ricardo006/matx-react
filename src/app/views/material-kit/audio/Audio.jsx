@@ -150,8 +150,8 @@ const Audio = () => {
 
                   <TableCell sx={{ px: 0 }} colSpan={1}>
                     <IconButton>
-                      {/* <Icon color="primary">play</Icon> */}
-                      <PlayArrowIcon  color="primary" />
+                      <Icon color="primary">play</Icon>
+                      <PlayArrowIcon color="primary" />
                     </IconButton>
                   </TableCell>
                 </TableRow>
