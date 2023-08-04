@@ -1,3 +1,4 @@
+import React from 'react';
 import { styled } from '@mui/system';
 import { MatxVerticalNav } from 'app/components';
 import useSettings from 'app/hooks/useSettings';

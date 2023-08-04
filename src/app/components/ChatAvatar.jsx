@@ -1,3 +1,4 @@
+import React from 'react';
 import { Avatar, Box, styled } from '@mui/material';
 
 const StyledAvatar = styled(Avatar)(() => ({

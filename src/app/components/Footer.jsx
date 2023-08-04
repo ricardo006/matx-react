@@ -1,3 +1,4 @@
+import React from 'react';
 import { AppBar, Button, ThemeProvider, Toolbar } from '@mui/material';
 import { styled, useTheme } from '@mui/system';
 import useSettings from 'app/hooks/useSettings';

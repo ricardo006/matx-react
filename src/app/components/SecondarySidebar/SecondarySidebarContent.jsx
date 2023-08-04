@@ -1,3 +1,4 @@
+import React from 'react';
 import { Icon, IconButton } from '@mui/material';
 import { styled, useTheme } from '@mui/system';
 import { Chatbox, ChatHead } from 'app/components';

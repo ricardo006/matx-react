@@ -1,3 +1,4 @@
+import React from 'react';
 import useSettings from 'app/hooks/useSettings';
 
 const MatxLogo = ({ className }) => {

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, styled } from '@mui/material';
 import { MatxLogo } from 'app/components';
 import useSettings from 'app/hooks/useSettings';
@@ -26,7 +27,7 @@ const Brand = ({ children }) => {
       <Box display="flex" alignItems="center">
         <MatxLogo />
         <StyledSpan mode={mode} className="sidenavHoverShow">
-          Matxw
+          Bee U School
         </StyledSpan>
       </Box>
 

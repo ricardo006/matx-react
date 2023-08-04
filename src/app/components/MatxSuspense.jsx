@@ -1,3 +1,4 @@
+import React from 'react'
 import { MatxLoading } from 'app/components';
 import { Suspense } from 'react';
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import useSettings from 'app/hooks/useSettings';
 import SecondarySidenavTheme from '../MatxTheme/SecondarySidenavTheme/SecondarySidenavTheme';
 import SecondarySidebarContent from './SecondarySidebarContent';

@@ -20,6 +20,7 @@ const Video = Loadable(lazy(() => import('./video/Video')));
 const Timeline = Loadable(lazy(() => import('./timeline/Timeline')));
 const Download = Loadable(lazy(() => import('./download/Download')));
 const MyWords = Loadable(lazy(() => import('./my-words/MyWords')));
+const MyAudios = Loadable(lazy(() => import('./my-audios/MyAudios')));
 const AppExpansionPanel = Loadable(lazy(() => import('./expansion-panel/AppExpansionPanel')));
 
 const materialRoutes = [
@@ -86,6 +87,10 @@ const materialRoutes = [
   {
     path: '/my-words',
     element: <MyWords />,
+  },
+  {
+    path: '/my-audios',
+    element: <MyAudios />,
   },
   {
     path: '/material/expansion-panel',

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, styled, useMediaQuery, useTheme } from '@mui/material';
 
 const SideNav = styled('div')(({ theme, width }) => ({

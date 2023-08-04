@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, Dialog, styled } from '@mui/material';
 
 const DialogBox = styled('div')(() => ({

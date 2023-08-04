@@ -1,7 +1,6 @@
 import { LoadingButton } from '@mui/lab';
 import { Card, Checkbox, Grid, TextField } from '@mui/material';
 import { Box, styled, useTheme } from '@mui/system';
-import { Paragraph } from 'app/components/Typography';
 import useAuth from 'app/hooks/useAuth';
 import { Formik } from 'formik';
 import { useState } from 'react';
@@ -65,13 +64,13 @@ const Login = () => {
   };
 
   return (
-    // <JWTRoot>
+    <JWTRoot>
       <Card className="card">
         <Grid container>
           teste
         </Grid>
       </Card>
-    // </JWTRoot>
+    </JWTRoot>
   );
 };
 

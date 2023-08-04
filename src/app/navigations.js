@@ -26,6 +26,7 @@ export const navigations = [
       { name: 'Meus Vídeos Favoritos', path: '/video', iconText: 'A' },
       { name: 'Linha do Tempo', path: '/timeline', iconText: 'A' },
       { name: 'Palavras Favoritas', path: '/my-words', iconText: 'A' },
+      { name: 'Meus Áudios', path: '/my-audios', iconText: 'M' },
       { name: 'Buttons', path: '/material/buttons', iconText: 'B' },
       { name: 'Checkbox', path: '/material/checkbox', iconText: 'C' },
       { name: 'Dialog', path: '/material/dialog', iconText: 'D' },

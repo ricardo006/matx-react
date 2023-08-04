@@ -4,7 +4,10 @@ import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
 import TextField from '@mui/material/TextField';
+import SendIcon from '@mui/icons-material/Send';
 
 import { Breadcrumb, SimpleCard } from 'app/components';
 
@@ -61,13 +64,21 @@ const MyWords = () => {
             </Grid>
           </Grid>
         </Box>
+
+        <Button variant="contained" justifyContent="end" sx={{float: 'right', mt: 4}}>
+          <SendIcon />
+          &nbsp;
+          Salvar
+        </Button>
       </SimpleCard>
 
       <SimpleCard title="Listagem de Palavras Favoritas" sx={{mt: 20}}>
         <Box sx={{ flexGrow: 1, mt: 4 }}>
           <Grid container spacing={2}>
             <Grid item xs={12}  md={12} p={2}>
-              <Chip sx={{mr: 1, ml: 0, mt: 2}} onDelete label="Display" variant="outlined" />
+              <Tooltip title="Esta palavra significa o seguinte, olha só, vou te explicar!" arrow>
+                <Chip sx={{mr: 1, ml: 0, mt: 2}} onDelete label="Display" variant="outlined" />
+              </Tooltip>
               <Chip sx={{mr: 1, ml: 0, mt: 2}} onDelete label="World" variant="filled" />
               <Chip sx={{mr: 1, ml: 0, mt: 2}} onDelete label="Personal" variant="outlined" />
               <Chip sx={{mr: 1, ml: 0, mt: 2}} onDelete label="Magic" variant="outlined" />
@@ -77,10 +88,6 @@ const MyWords = () => {
               <Chip sx={{mr: 1, ml: 0, mt: 2}} onDelete label="Somebody" variant="outlined" />
               <Chip sx={{mr: 1, ml: 0, mt: 2}} onDelete label="Cards" variant="outlined" />
               <Chip sx={{mr: 1, ml: 0, mt: 2}} onDelete label="Direction" variant="outlined" />
-            </Grid>
-
-            <Grid item xs={4} md={12}>
-            
             </Grid>
           </Grid>
         </Box>

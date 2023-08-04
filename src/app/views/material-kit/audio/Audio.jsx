@@ -17,6 +17,8 @@ import {
 } from '@mui/material';
 import { Paragraph } from 'app/components/Typography';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import SendIcon from '@mui/icons-material/Send';
+import Collections from '@mui/icons-material/Collections';
 import { Breadcrumb, SimpleCard } from 'app/components';
 
 const Container = styled('div')(({ theme }) => ({
@@ -88,10 +90,16 @@ const Audio = () => {
       <SimpleCard title="Upload de Áudios" sx={{mt: 10}}>
         <input accept="audio/*" className="input" id="contained-button-file" multiple type="file" />
         <label htmlFor="contained-button-file">
-          <StyledButton variant="contained" component="span">
-            Upload
+          <StyledButton color="info" variant="outlined" component="span">
+            <Collections />
+            &nbsp;Upload
           </StyledButton>
         </label>
+
+        <Button variant="contained" justifyContent="end" sx={{float: 'right'}}>
+          <SendIcon />
+          &nbsp;Enviar
+        </Button>
       </SimpleCard>
   
       <Card elevation={3} sx={{ pt: '20px', mb: 3, mt: 3 }}>

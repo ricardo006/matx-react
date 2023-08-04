@@ -1,4 +1,5 @@
-import AuthGuard from 'app/auth/AuthGuard';
+import React from 'react';
+import AuthGuard from '../app/auth/AuthGuard';
 import chartsRoute from 'app/views/charts/ChartsRoute';
 import dashboardRoutes from 'app/views/dashboard/DashboardRoutes';
 import materialRoutes from 'app/views/material-kit/MaterialRoutes';

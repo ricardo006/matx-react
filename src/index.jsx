@@ -1,3 +1,4 @@
+import React from 'react';
 import { CssBaseline } from '@mui/material';
 import { StyledEngineProvider } from '@mui/styled-engine';
 import 'perfect-scrollbar/css/perfect-scrollbar.css';

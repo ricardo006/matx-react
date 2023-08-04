@@ -1,3 +1,4 @@
+import React from 'react';
 import { ThemeProvider, useTheme } from '@mui/material';
 import useSettings from 'app/hooks/useSettings';
 

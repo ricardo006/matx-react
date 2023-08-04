@@ -8,7 +8,7 @@ import {
   updateCartAmount,
 } from 'app/redux/actions/EcommerceActions';
 import { sideNavWidth, topBarHeight } from 'app/utils/constant';
-import { Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { themeShadows } from './MatxTheme/themeColors';

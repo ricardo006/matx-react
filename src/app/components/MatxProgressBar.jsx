@@ -1,3 +1,4 @@
+import React from 'react';
 import { Grid, LinearProgress, Typography } from '@mui/material';
 import { styled, useTheme } from '@mui/system';
 import { Small } from './Typography';
